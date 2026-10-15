@@ -196,7 +196,4 @@ Python, pandas, NumPy, scikit-learn and Matplotlib.
 
 ## What I learned
 
-[WRITE 2 OR 3 SENTENCES IN YOUR OWN WORDS. Ideas from my own results:
-why accuracy alone can fool you when 30% of the people are bad risks,
-why I looked at recall first, or how the models gave different
-trade-offs with almost the same ROC-AUC.]
+bad training algorithim can result in to bad decision , example in a banks credit for the customers
