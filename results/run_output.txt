@@ -1,0 +1,38 @@
+Loaded 1000 people.
+Share of bad credit risks: 0.3
+
+--- Logistic Regression ---
+Confusion matrix (rows = real, columns = predicted):
+[[101  39]
+ [ 11  49]]
+
+--- Decision Tree ---
+Confusion matrix (rows = real, columns = predicted):
+[[91 49]
+ [21 39]]
+
+--- Random Forest ---
+Confusion matrix (rows = real, columns = predicted):
+[[121  19]
+ [ 22  38]]
+
+=== Model comparison ===
+              Model  Precision  Recall  F1-Score  ROC-AUC
+Logistic Regression      0.557   0.817     0.662    0.809
+      Decision Tree      0.443   0.650     0.527    0.675
+      Random Forest      0.667   0.633     0.650    0.808
+
+Top 10 features for the Random Forest:
+numbers__estimated_monthly_payment             0.083167
+numbers__loan_amount                           0.077091
+numbers__loan_amount_per_year_of_age           0.073422
+categories__checking_account_status_A14        0.065454
+numbers__loan_duration_months                  0.063556
+numbers__age_in_years                          0.060498
+categories__checking_account_status_A11        0.031425
+numbers__installment_rate_percent_of_income    0.026964
+numbers__years_at_current_residence            0.025959
+categories__credit_history_A34                 0.024370
+dtype: float64
+
+Saved the table and pictures in the results folder.
