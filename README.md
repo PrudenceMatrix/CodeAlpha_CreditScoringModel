@@ -6,7 +6,7 @@ their past financial information.
 
 ## Project video
 
-LinkedIn video: [PASTE YOUR LINKEDIN POST LINK HERE]
+on my linked in 
 
 ## What this project does
 
